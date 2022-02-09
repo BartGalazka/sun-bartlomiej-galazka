@@ -54,7 +54,9 @@ function App() {
       {BulletPoints[9]}
       <h3 className="lenovoBlack">Specyfikacja</h3>
       <table>
+        <tbody>
         {Specs}
+        </tbody>
       </table>
       <p className='disclaimer'>Dane techniczne mogą zależeć od regionu</p>
       <h3 className="lenovoBlack">Specyfikacja</h3>
