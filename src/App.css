@@ -1,0 +1,142 @@
+@font-face {
+  font-family: Gotham;
+  src: url(https://fonts.cdnfonts.com/s/14898/GothamBook.woff);
+}
+
+@font-face {
+  font-family:"lato-header";
+  src:url("https://use.typekit.net/af/6d5f34/000000000000000000015225/27/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n2&v=3") format("woff2"),url("https://use.typekit.net/af/6d5f34/000000000000000000015225/27/d?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n2&v=3") format("woff"),url("https://use.typekit.net/af/6d5f34/000000000000000000015225/27/a?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n2&v=3") format("opentype");
+  font-display:auto;
+  font-style:normal;
+  font-weight:200;
+}
+  @font-face {
+    font-family:"lato";
+    src:url("https://use.typekit.net/af/a2df1e/00000000000000000001522a/27/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/a2df1e/00000000000000000001522a/27/d?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/a2df1e/00000000000000000001522a/27/a?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n3&v=3") format("opentype");
+    font-display:auto;
+    font-style:normal;
+    font-weight:300;
+}
+
+.lenovoBackground{
+  background-color: #408DDC;
+  padding-bottom: 5%;
+  height: 150%;
+  }
+  @media screen and (min-width: 801px) {
+    .lenovoWhite{
+      color: #FFFFFF;
+      font-family: Gotham;
+      line-height: 26px;
+      margin-left: 10%;
+      width: 38%;
+      float: left;
+      margin-top: 10%;
+      text-align: left;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .lenovoWhite{
+      color: #FFFFFF;
+      font-family: Gotham;
+      line-height: 26px;
+      margin-left: 10%;
+      width: 80%;
+      float: left;
+      margin-top: 10%;
+      text-align: left;
+    }
+  }
+
+.whitePic{
+  margin-top: 10%;
+}
+
+.lenovoLogo{
+  float: left;
+}
+
+.lenovoWhite > h2, .lenovoBlack > h3, h2{
+  font-size: 50px;
+  line-height: 56px;
+}
+.lenovoWhite > h3{
+  font-size: 30px;
+  line-height: 56px;
+}
+
+.lenovoWhite > p{
+  font-size: 16px;
+}
+
+.lenovoBlack > p, a, tr, td{
+  font-family: lato;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.picCenter{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 80%;
+  height: auto;
+}
+
+.lenovoBlack{
+  line-height: 60px;
+  font-family: lato-header;
+  color: #000000;
+  font-size: 43px;
+  text-align: left;
+}
+
+.promoPicCenter{
+  margin-top: 100px;
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+td:first-child { 
+  padding-right: 80px; 
+  width:25%; 
+  text-align: left; }
+
+td > p {
+  margin: 0px;
+}
+
+table{
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+td{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 15px;
+}
+
+tr:last-child > td{
+  border: none;
+}
+
+tr.spaceUnder>td {
+  padding-bottom: 1em;
+}
+
+table td, table td * {
+  vertical-align: top;
+}
+
+.disclaimer{
+  float: right;
+  font-size: 15px !important;
+}
